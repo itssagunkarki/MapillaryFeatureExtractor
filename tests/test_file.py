@@ -1,2 +1,5 @@
-import os 
-assert(os.getenv['ss'] == "here")
+import os
+
+
+def test_key():
+  assert(os.environ['ss'] == "here")
