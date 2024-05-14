@@ -1,1 +1,2 @@
-asset(os.getenv['ss'])
+import os 
+asset(os.getenv['ss'] == "here")
