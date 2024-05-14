@@ -1,2 +1,2 @@
 import os 
-asset(os.getenv['ss'] == "here")
+assert(os.getenv['ss'] == "here")
